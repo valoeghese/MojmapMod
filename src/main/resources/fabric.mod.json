@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mojmapmod",
+  "version": "1.0.0",
+  
+  "name": "MojmapMod",
+  "description": "Mod made in Mojang's official mappings",
+  "authors": [
+    "Valoeghese"
+  ],
+  
+  "license": "All Rights Reserved for doing whatever you want with the mod",
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+      "tk.valoeghese.mojmapmod.MojmapMod"
+    ]
+  },
+  
+  "mixins": [
+    "mojmapmod.mixins.json"
+  ],
+  
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  }
+}

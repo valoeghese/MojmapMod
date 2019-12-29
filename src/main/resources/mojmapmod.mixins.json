@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "tk.valoeghese.mojmapmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinRemoveTooMuchOceanLayer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
