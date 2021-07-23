@@ -3,6 +3,7 @@
   "package": "tk.valoeghese.mojmapmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinItem",
     "MixinRemoveTooMuchOceanLayer"
   ],
   "injectors": {
